@@ -1,0 +1,1 @@
+python -m classify_hand_object -T 16 -device cuda:1 -b 2 -epochs 100 -data-dir /homeL/wchen/data/hand_object -amp -cupy  -opt adam -lr 0.001 -j 12 -resume ../logs/hand_object/DVSHandObjectResnet18_IF_T16_b2_adam_lr0.001_c128_amp_cupy/checkpoint_latest.pth -save-es ../logs/hand_object/DVSHandObjectResnet18_IF_T16_b2_adam_lr0.001_c128_amp_cupy/
