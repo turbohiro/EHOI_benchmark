@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.15.0-78-generic-x86_64-with-glibc2.17",
+    "python": "3.8.15",
+    "heartbeatAt": "2023-11-13T17:16:26.067867",
+    "startedAt": "2023-11-13T17:16:25.039327",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 24,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "spikingjelly/activation_based/examples/main.py",
+    "git": {
+        "remote": "https://github.com/fangwei123456/spikingjelly.git",
+        "commit": "4eec65ede1e2bdd1a98a6d39f83dddbd017944e2"
+    },
+    "email": "cwkturbo@sjtu.edu.cn",
+    "root": "/dataHDD/wchen/SNNs-RNNs/spikingjelly",
+    "host": "tamsGPU2",
+    "username": "wchen",
+    "executable": "/homeL/wchen/anaconda3/envs/RPL/bin/python"
+}
